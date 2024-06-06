@@ -1,8 +1,8 @@
-package com.luv2code.springbootlibrary.service;
+package com.KBUCK2018.springbootlibrary.service;
 
-import com.luv2code.springbootlibrary.dao.PaymentRepository;
-import com.luv2code.springbootlibrary.entity.Payment;
-import com.luv2code.springbootlibrary.requestmodels.PaymentInfoRequest;
+import com.KBUCK2018.springbootlibrary.dao.PaymentRepository;
+import com.KBUCK2018.springbootlibrary.entity.Payment;
+import com.KBUCK2018.springbootlibrary.requestmodels.PaymentInfoRequest;
 import com.stripe.Stripe;
 import com.stripe.exception.StripeException;
 import com.stripe.model.PaymentIntent;

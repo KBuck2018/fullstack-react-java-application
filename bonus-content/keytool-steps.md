@@ -16,7 +16,7 @@ This document includes instructions for generating a key and self-signed certifi
 3. In the terminal window, run this command to generate the key and certificate. This is one long command, copy/paste in its entirety.
 
     ```
-    keytool -genkeypair -alias luv2code -keystore src/main/resources/luv2code-keystore.p12 -keypass secret -storeType PKCS12 -storepass secret -keyalg RSA -keysize 2048 -validity 365 -dname "C=US, ST=Pennsylvania, L=Philadelphia, O=luv2code, OU=Training Backend, CN=localhost" -ext "SAN=dns:localhost"
+    keytool -genkeypair -alias KBUCK2018 -keystore src/main/resources/KBUCK2018-keystore.p12 -keypass secret -storeType PKCS12 -storepass secret -keyalg RSA -keysize 2048 -validity 365 -dname "C=US, ST=Pennsylvania, L=Philadelphia, O=KBUCK2018, OU=Training Backend, CN=localhost" -ext "SAN=dns:localhost"
     ```
 
     | Argument | Description |
@@ -34,25 +34,25 @@ This document includes instructions for generating a key and self-signed certifi
     | -ext | Add the given X.509 extension |
 
     > Detailed docs available [here](https://docs.oracle.com/en/java/javase/13/docs/specs/man/keytool.html). 
-3. The command generates the file: `src/main/resources/luv2code-keystore.p12` .
+3. The command generates the file: `src/main/resources/KBUCK2018-keystore.p12` .
 
 ## Verify Results
 
 1. View the contents of your certificate.
 
     ```
-    keytool -list -v -alias luv2code -keystore src/main/resources/luv2code-keystore.p12 -storepass secret
+    keytool -list -v -alias KBUCK2018 -keystore src/main/resources/KBUCK2018-keystore.p12 -storepass secret
     ```
 
     _Sample Output_
     ```    
-    Alias name: luv2code
+    Alias name: KBUCK2018
     Creation date: Jul 11, 2021
     Entry type: PrivateKeyEntry
     Certificate chain length: 1
     Certificate[1]:
-    Owner: C=US, ST=Pennsylvania, L=Philadelphia, O=luv2code, OU=Training Backend, CN=localhost
-    Issuer: C=US, ST=Pennsylvania, L=Philadelphia, O=luv2code, OU=Training Backend, CN=localhost
+    Owner: C=US, ST=Pennsylvania, L=Philadelphia, O=KBUCK2018, OU=Training Backend, CN=localhost
+    Issuer: C=US, ST=Pennsylvania, L=Philadelphia, O=KBUCK2018, OU=Training Backend, CN=localhost
     Serial number: 9f1898a717a75375
     Valid from: Sun Jul 11 00:02:10 EDT 2021 until: Mon Jul 11 00:02:10 EDT 2022
     Certificate fingerprints:
@@ -92,9 +92,9 @@ This document includes instructions for generating a key and self-signed certifi
     # Enable HTTPS support (only accept HTTPS requests)
     server.ssl.enabled=true
     # Alias that identifies the key in the key store
-    server.ssl.key-alias=luv2code
+    server.ssl.key-alias=KBUCK2018
     # Keystore location
-    server.ssl.key-store=classpath:luv2code-keystore.p12
+    server.ssl.key-store=classpath:KBUCK2018-keystore.p12
     # Keystore password
     server.ssl.key-store-password=secret
     # Keystore format

@@ -1,6 +1,6 @@
-package com.luv2code.springbootlibrary.dao;
+package com.KBUCK2018.springbootlibrary.dao;
 
-import com.luv2code.springbootlibrary.entity.Payment;
+import com.KBUCK2018.springbootlibrary.entity.Payment;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PaymentRepository extends JpaRepository<Payment, Long> {

@@ -8,7 +8,7 @@
 		<version>2.7.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.luv2code</groupId>
+	<groupId>com.KBUCK2018</groupId>
 	<artifactId>spring-boot-library</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-library</name>

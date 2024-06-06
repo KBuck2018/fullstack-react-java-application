@@ -1,8 +1,8 @@
-package com.luv2code.springbootlibrary.service;
+package com.KBUCK2018.springbootlibrary.service;
 
-import com.luv2code.springbootlibrary.dao.MessageRepository;
-import com.luv2code.springbootlibrary.entity.Message;
-import com.luv2code.springbootlibrary.requestmodels.AdminQuestionRequest;
+import com.KBUCK2018.springbootlibrary.dao.MessageRepository;
+import com.KBUCK2018.springbootlibrary.entity.Message;
+import com.KBUCK2018.springbootlibrary.requestmodels.AdminQuestionRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

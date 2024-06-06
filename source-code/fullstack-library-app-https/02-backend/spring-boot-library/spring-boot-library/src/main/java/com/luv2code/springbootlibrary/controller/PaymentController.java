@@ -1,8 +1,8 @@
-package com.luv2code.springbootlibrary.controller;
+package com.KBUCK2018.springbootlibrary.controller;
 
-import com.luv2code.springbootlibrary.requestmodels.PaymentInfoRequest;
-import com.luv2code.springbootlibrary.service.PaymentService;
-import com.luv2code.springbootlibrary.utils.ExtractJWT;
+import com.KBUCK2018.springbootlibrary.requestmodels.PaymentInfoRequest;
+import com.KBUCK2018.springbootlibrary.service.PaymentService;
+import com.KBUCK2018.springbootlibrary.utils.ExtractJWT;
 import com.stripe.exception.StripeException;
 import com.stripe.model.PaymentIntent;
 import org.springframework.beans.factory.annotation.Autowired;

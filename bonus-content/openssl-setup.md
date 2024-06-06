@@ -94,7 +94,7 @@ Let's verify the OpenSSL installation
     ST = Pennsylvania
     L = Philadelphia
     # Organization and Organizational Unit (department name, group name)
-    O = luv2code
+    O = KBUCK2018
     OU = Training
     # Common Name (fully qualified domain name of your website server)
     CN = localhost
@@ -155,11 +155,11 @@ Let's verify the OpenSSL installation
             Version: ...
             Serial Number: 13535095018565170476 (0xbbd6513516bc752c)
         Signature Algorithm: sha256WithRSAEncryption
-            Issuer: C=US, ST=Pennsylvania, L=Philadelphia, O=luv2code, OU=Training, CN=localhost
+            Issuer: C=US, ST=Pennsylvania, L=Philadelphia, O=KBUCK2018, OU=Training, CN=localhost
             Validity
                 Not Before: May 29 21:25:12 2021 GMT
                 Not After : May 29 21:25:12 2022 GMT
-            Subject: C=US, ST=Pennsylvania, L=Philadelphia, O=luv2code, OU=Training, CN=localhost
+            Subject: C=US, ST=Pennsylvania, L=Philadelphia, O=KBUCK2018, OU=Training, CN=localhost
             Subject Public Key Info:
                 Public Key Algorithm: rsaEncryption
                     Public-Key: (2048 bit)
@@ -215,7 +215,7 @@ On Mac/Linux, openssl is already included with the operating system. There is no
     ST = Pennsylvania
     L = Philadelphia
     # Organization and Organizational Unit (department name, group name)
-    O = luv2code
+    O = KBUCK2018
     OU = Training
     # Common Name (fully qualified domain name of your website server)
     CN = localhost
@@ -278,11 +278,11 @@ On Mac/Linux, openssl is already included with the operating system. There is no
             Version: ...
             Serial Number: 13535095018565170476 (0xbbd6513516bc752c)
         Signature Algorithm: sha256WithRSAEncryption
-            Issuer: C=US, ST=Pennsylvania, L=Philadelphia, O=luv2code, OU=Training, CN=localhost
+            Issuer: C=US, ST=Pennsylvania, L=Philadelphia, O=KBUCK2018, OU=Training, CN=localhost
             Validity
                 Not Before: May 29 21:25:12 2021 GMT
                 Not After : May 29 21:25:12 2022 GMT
-            Subject: C=US, ST=Pennsylvania, L=Philadelphia, O=luv2code, OU=Training, CN=localhost
+            Subject: C=US, ST=Pennsylvania, L=Philadelphia, O=KBUCK2018, OU=Training, CN=localhost
             Subject Public Key Info:
                 Public Key Algorithm: rsaEncryption
                     Public-Key: (2048 bit)

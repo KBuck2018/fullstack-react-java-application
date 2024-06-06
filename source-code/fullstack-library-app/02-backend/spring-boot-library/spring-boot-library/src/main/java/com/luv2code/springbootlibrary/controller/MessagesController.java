@@ -1,9 +1,9 @@
-package com.luv2code.springbootlibrary.controller;
+package com.KBUCK2018.springbootlibrary.controller;
 
-import com.luv2code.springbootlibrary.entity.Message;
-import com.luv2code.springbootlibrary.requestmodels.AdminQuestionRequest;
-import com.luv2code.springbootlibrary.service.MessagesService;
-import com.luv2code.springbootlibrary.utils.ExtractJWT;
+import com.KBUCK2018.springbootlibrary.entity.Message;
+import com.KBUCK2018.springbootlibrary.requestmodels.AdminQuestionRequest;
+import com.KBUCK2018.springbootlibrary.service.MessagesService;
+import com.KBUCK2018.springbootlibrary.utils.ExtractJWT;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

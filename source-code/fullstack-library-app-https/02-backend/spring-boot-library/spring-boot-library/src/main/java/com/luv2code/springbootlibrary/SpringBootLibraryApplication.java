@@ -1,4 +1,4 @@
-package com.luv2code.springbootlibrary;
+package com.KBUCK2018.springbootlibrary;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

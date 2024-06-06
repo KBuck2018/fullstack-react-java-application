@@ -1,9 +1,9 @@
-package com.luv2code.springbootlibrary.controller;
+package com.KBUCK2018.springbootlibrary.controller;
 
-import com.luv2code.springbootlibrary.entity.Book;
-import com.luv2code.springbootlibrary.responsemodels.ShelfCurrentLoansResponse;
-import com.luv2code.springbootlibrary.service.BookService;
-import com.luv2code.springbootlibrary.utils.ExtractJWT;
+import com.KBUCK2018.springbootlibrary.entity.Book;
+import com.KBUCK2018.springbootlibrary.responsemodels.ShelfCurrentLoansResponse;
+import com.KBUCK2018.springbootlibrary.service.BookService;
+import com.KBUCK2018.springbootlibrary.utils.ExtractJWT;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

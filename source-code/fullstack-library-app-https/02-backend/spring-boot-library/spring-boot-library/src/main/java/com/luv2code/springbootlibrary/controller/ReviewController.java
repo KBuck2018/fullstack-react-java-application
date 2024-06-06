@@ -1,8 +1,8 @@
-package com.luv2code.springbootlibrary.controller;
+package com.KBUCK2018.springbootlibrary.controller;
 
-import com.luv2code.springbootlibrary.requestmodels.ReviewRequest;
-import com.luv2code.springbootlibrary.service.ReviewService;
-import com.luv2code.springbootlibrary.utils.ExtractJWT;
+import com.KBUCK2018.springbootlibrary.requestmodels.ReviewRequest;
+import com.KBUCK2018.springbootlibrary.service.ReviewService;
+import com.KBUCK2018.springbootlibrary.utils.ExtractJWT;
 import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin("https://localhost:3000")

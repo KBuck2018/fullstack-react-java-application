@@ -1,4 +1,4 @@
-package com.luv2code.springbootlibrary.config;
+package com.KBUCK2018.springbootlibrary.config;
 
 import com.okta.spring.boot.oauth.Okta;
 import org.springframework.context.annotation.Bean;

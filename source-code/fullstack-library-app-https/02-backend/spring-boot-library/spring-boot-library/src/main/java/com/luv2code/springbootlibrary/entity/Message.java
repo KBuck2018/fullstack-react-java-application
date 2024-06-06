@@ -1,4 +1,4 @@
-package com.luv2code.springbootlibrary.entity;
+package com.KBUCK2018.springbootlibrary.entity;
 
 
 import lombok.Data;

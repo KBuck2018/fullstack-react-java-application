@@ -1,9 +1,9 @@
-package com.luv2code.springbootlibrary.service;
+package com.KBUCK2018.springbootlibrary.service;
 
-import com.luv2code.springbootlibrary.dao.BookRepository;
-import com.luv2code.springbootlibrary.dao.ReviewRepository;
-import com.luv2code.springbootlibrary.entity.Review;
-import com.luv2code.springbootlibrary.requestmodels.ReviewRequest;
+import com.KBUCK2018.springbootlibrary.dao.BookRepository;
+import com.KBUCK2018.springbootlibrary.dao.ReviewRepository;
+import com.KBUCK2018.springbootlibrary.entity.Review;
+import com.KBUCK2018.springbootlibrary.requestmodels.ReviewRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -65,13 +65,13 @@ The website for nvm is: https://github.com/nvm-sh/nvm
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                     Dload  Upload   Total   Spent    Left  Speed
     100 13527  100 13527    0     0  62065      0 --:--:-- --:--:-- --:--:-- 62336
-    => Downloading nvm from git to '/home/luv2code/.nvm'
-    => Cloning into '/home/luv2code/.nvm'...
+    => Downloading nvm from git to '/home/KBUCK2018/.nvm'
+    => Cloning into '/home/KBUCK2018/.nvm'...
     remote: Enumerating objects: 286, done.
     ...
 
-    => Appending nvm source string to /home/luv2code/.bashrc
-    => Appending bash_completion source string to /home/luv2code/.bashrc
+    => Appending nvm source string to /home/KBUCK2018/.bashrc
+    => Appending bash_completion source string to /home/KBUCK2018/.bashrc
     => Close and reopen your terminal to start using nvm or run the following to use it now:
 
     ...
@@ -174,4 +174,4 @@ tsc is the TypeScript compiler. We use tsc to compile TypeScript code into JavaS
 That's it! You have successfully installed the development tools: Visual Studio Code, nvm, node, npm and tsc.
 
 ---
-&copy; 2022, [luv2code LLC](http://www.luv2code.com) - All rights reserved.
+&copy; 2022, [KBUCK2018 LLC](http://www.KBUCK2018.com) - All rights reserved.

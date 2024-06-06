@@ -1,4 +1,4 @@
-package com.luv2code.springbootlibrary.requestmodels;
+package com.KBUCK2018.springbootlibrary.requestmodels;
 
 import lombok.Data;
 

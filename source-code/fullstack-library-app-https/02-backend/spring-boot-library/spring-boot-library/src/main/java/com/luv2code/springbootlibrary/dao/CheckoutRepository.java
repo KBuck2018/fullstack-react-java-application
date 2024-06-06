@@ -1,6 +1,6 @@
-package com.luv2code.springbootlibrary.dao;
+package com.KBUCK2018.springbootlibrary.dao;
 
-import com.luv2code.springbootlibrary.entity.Checkout;
+import com.KBUCK2018.springbootlibrary.entity.Checkout;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

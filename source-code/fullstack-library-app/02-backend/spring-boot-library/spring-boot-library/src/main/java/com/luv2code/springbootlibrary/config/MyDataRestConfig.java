@@ -1,8 +1,8 @@
-package com.luv2code.springbootlibrary.config;
+package com.KBUCK2018.springbootlibrary.config;
 
-import com.luv2code.springbootlibrary.entity.Book;
-import com.luv2code.springbootlibrary.entity.Message;
-import com.luv2code.springbootlibrary.entity.Review;
+import com.KBUCK2018.springbootlibrary.entity.Book;
+import com.KBUCK2018.springbootlibrary.entity.Message;
+import com.KBUCK2018.springbootlibrary.entity.Review;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
